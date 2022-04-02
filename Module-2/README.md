@@ -1,1 +1,2 @@
-# Fintech-Mod_Challenges
+# Fintech-Mod_Challenges 
+Hello! Getting started in Module2 Challenge
