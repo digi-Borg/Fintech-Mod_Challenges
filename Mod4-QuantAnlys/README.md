@@ -9,7 +9,7 @@ This program evaluates four new investment portfolios from legendary funds and h
 
 This analysis will take quantitative measures based on risk management metrics such as daily returns, standard deviation, Sharpe ratios, and betas for all 4 portfolios against market performance of the 'S&P 500'. This will aid in giving a clear picture to find the fund with the best investment potential for a retirement portfolio by analyzing data and visualizing the former risk and return metrics. This will aid the user in determining the top performer with a recommended choice for the investment firm.  
 
-The data and chart visualations should help 'Investment Representatives' efficiently discuss this attractive option with customers as an addition to their retirement postfolios.  
+The data and chart visualations should help 'Investment Representatives' efficiently discuss this attractive option with customers as an addition to their retirement portfolios.  
 
 ---
 
@@ -41,6 +41,8 @@ Before running the application first activate the Conda development environment 
 This application is launched from web-based JupyterLab utilizing Pandas which is designed for data analysis to write and read code in an IDE and review results through the Python libraries. The Anaconda3 software application includes the Pandas libraries; **numpy, %matplotlib inline** to utilize data frames and plot charts in an integrated Conda development environment. 
 
 The program is developed in Jupyter notebooks on a **.ipny** file.  The pandas imports help to **pd.read_csv** data files and place it into a data frame to analyze and visualize it. Using **numpy** library tools facilitates math calculations with large quantities of data sets to get: daily returns, risk and return metrics, standard deviation, and beta. The Pandas **%matplotlib inline** enables functions to create informative visualizations from the Pandas DataFrames and data metrics. 
+
+
 
 Finally the **risk_return_analysis.ipny** program as several steps to analyze: performance, volatility, risk, risk-return profile, and portfolio diversification. Through these steps a determination is made for a portfolio recommendation from the four "Whale" fund porfolio managers.  
 
