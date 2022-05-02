@@ -25,32 +25,31 @@ The software operates on python 3.9 with the installation package imports embedd
 
 * [anaconda3](https://docs.anaconda.com/anaconda/install/windows/e) .
 
-* [conda install -c pyviz hvplot geoviews] or [pip install geoviews] .
+* [pyviz hvplot geoviews](https://hvplot.holoviz.org/index.html#) .
 
 ---
 
 ## Installation Guide
 
-Before running the applications first activate the Conda development environment and launch JupyterLab to import the following required libraries apps. If hvplot and geo views is not 
+Before running the applications first activate the Conda development environment and launch JupyterLab to import the following required libraries apps. If hvplot and geo views is not installed with anaconda, the recommended way to install hvPlot is using the conda terminal command below provided by Anaconda. 
 
 ```python libraries
 import pandas as pd
 import hvplot.pandas
 from bokeh.models import HoverTool
 from pathlib import Path 
-%matplotlib inline 
-```
+
 [conda install -c pyviz hvplot geoviews] or [pip install geoviews] 
+```
+
 ---
 # Usage
 
-This application is launched from web-based JupyterLab utilizing Pandas which is designed for data analysis to write and read code in an IDE and review results through the Python libraries. The Anaconda3 software application includes the Pandas libraries; **'PyViz' as a single platform for accessing two PyViz libraries, hvPlot and GeoViews.** They are utilized for this program from the Python visualization package. **HoverTool, %matplotlib inline** to utilize data frames, forecast through simulations and plot charts in an integrated Conda development environment. 
+This application is launched from web-based JupyterLab utilizing Pandas which is designed for data analysis to write and read code in an IDE and review results through the Python libraries. The Anaconda3 software application includes the Pandas libraries; **'PyViz' as a single platform for accessing two PyViz libraries, hvPlot and GeoViews.** They are utilized for high-level plot charts in this program from the Python visualization package. **HoverTool**is imported from the Bokeh library for **hvplot and GeoViews**. It utilize data frames and plot charts in an integrated Conda development environment. 
 
-Importantly download the Alpaca API key and secret keys from *https://app.alpaca.markets/brokerage/new-account* to save in a *.env* file. It functions for holding api keys to access Alpaca API market data SDK. To use *.env* functionality **import os** and **import load_dotenv** are required to call the **load_dotenv()** function.
+The program is developed in Jupyter notebooks on a **.ipny** file. Imports of PyViz libraries **hvplots and geoviews**; and with  **HoverTool** are used for more advanced interactive chart environments. These apps makes it much easier to explore data in interactive plot properties, without having to write additional code to select ranges, columns, or data values manually. These interactive visualization libraries also improve browser plot presentations. Together they advance functions to create informative visualizations from the Pandas DataFrames and data metrics. 
 
-The program is developed in Jupyter notebooks on a **.ipny** file.  The pandas imports help the imports of PyViz libraries **hvplots and geoviews**; with python import of **numpy and %matplotlib inline**. The JSON library is needed to work with files in the JavaScript Object Notation (JSON) format for API requests and interface with your machine. Using **numpy** library tools facilitates math calculations with large quantities of data sets to get: daily returns, risk and return metrics, standard deviation, and beta. The Pandas **%matplotlib inline** enables functions to create informative visualizations from the Pandas DataFrames and data metrics. The **import alpaca_trade_api** is required to retreive data for stock and bond simulations. The **MCSimulation** app is required to running the Monte Carlo simulation program.   
-
-Finally the **san_francisco_housing.ipynb** program utilizing the above libraries has several steps to retrieve, create, evaluate, analyze data and make forcasts for real estate investing. Through these steps a determination can be made by real estate portfolio managers to purchase property to meet investment goals.   
+The **san_francisco_housing.ipynb** program utilizing the above libraries has several steps to retrieve, aggregate, create, evaluate, and analyze data to make forcasts for real estate investing. Through these steps real estate portfolio managers can visualize property opportunities to efficiently aid purchase decisions in meeting investment goals.   
 
 ```python
 financial_planning_tools.ipynb
