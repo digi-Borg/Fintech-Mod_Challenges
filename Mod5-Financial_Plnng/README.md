@@ -41,15 +41,13 @@ import alpaca_trade_api as tradeapi
 from MCForecastTools import MCSimulation 
 %matplotlib inline 
 ```
-# Load the environment variables from the .env file
-#by calling the load_dotenv function
-load_dotenv()
+
 ---
 # Usage
 
 This application is launched from web-based JupyterLab utilizing Pandas which is designed for data analysis to write and read code in an IDE and review results through the Python libraries. The Anaconda3 software application includes the Pandas libraries; **os, requests, json, load_dotenv, alpaca_trade_api, MCSimulation,%matplotlib inline** to utilize data frames, forecast through simulations and plot charts in an integrated Conda development environment. 
 
-Importantly download the Alpaca API key and secret keys from *https://app.alpaca.markets/brokerage/new-account* to save in a *.env* file. It functions for holding api keys to access Alpaca API market data SDK. To use *.env* functionality **import os** and **import load_dotenv** are required.
+Importantly download the Alpaca API key and secret keys from *https://app.alpaca.markets/brokerage/new-account* to save in a *.env* file. It functions for holding api keys to access Alpaca API market data SDK. To use *.env* functionality **import os** and **import load_dotenv** are required to call the **load_dotenv()** function.
 
 The program is developed in Jupyter notebooks on a **.ipny** file.  The pandas imports help the imports of **os, requests, json, load_dotenv** retrieve data from remote API's, and load them in your computor within a data frame to visualize and analyze. The JSON library is needed to work with files in the JavaScript Object Notation (JSON) format for API requests and interface with your machine. Using **numpy** library tools facilitates math calculations with large quantities of data sets to get: daily returns, risk and return metrics, standard deviation, and beta. The Pandas **%matplotlib inline** enables functions to create informative visualizations from the Pandas DataFrames and data metrics. The **import alpaca_trade_api** is required to retreive data for stock and bond simulations. The **MCSimulation** app is required to running the Monte Carlo simulation program.   
 
