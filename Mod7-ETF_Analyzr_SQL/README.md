@@ -62,9 +62,9 @@ SQLAlchemy is a python toolkit that facilitates the handling of relational datab
 
 Voilà allows the user to convert the Jupyter Notebook into an interactive web app to share the program with others. As Voilà runs the code in the Notebook its output is converted to HTML in a browser for an interactive visual experience. 
 
-"C:\Users\gotha\OneDrive\Desktop\Fintech-Mod_Challenges\Mod7-ETF_Analyzr_SQL\Images- M7Chllg- CUBC\M7Chllg-Viola_HTML.png" 
+!(M7Chllg-Viola_HTML.png)["C:\Users\gotha\OneDrive\Desktop\Fintech-Mod_Challenges\Mod7-ETF_Analyzr_SQL\Images- M7Chllg- CUBC\M7Chllg-Viola_HTML.png"] 
 
-"C:\Users\gotha\OneDrive\Desktop\Fintech-Mod_Challenges\Mod7-ETF_Analyzr_SQL\Images- M7Chllg- CUBC\M7Chllg- Voila_error CUBC.png"
+!(M7Chllg-Voila_Terminal_CUBC.png)["C:\Users\gotha\OneDrive\Desktop\Fintech-Mod_Challenges\Mod7-ETF_Analyzr_SQL\Images- M7Chllg- CUBC\M7Chllg- Voila_Terminal_CUBC.png"]
 
 ```python
 etf_analyzer.ipynb
