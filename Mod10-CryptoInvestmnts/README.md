@@ -11,7 +11,7 @@ The increasing interest in cryptocurrency investing has made this asset class po
 
 This approach brings greater identification of performance in the increasingly crowded asset class of cryptocurrencies.  As such, one can access risks and performance across time periods using algorithms. Thus, offering a keener visualization of each cryptocurrency’s durability and fit for selection into building a portfolio. 
 
-The FinTech app technology in this program utilizes unsupervised machine learning algorithms uses models to find similar relationships among data points for segmentation. To achieve this, imports from python’s ‘scikit-learn’ utilizes algorithms and ‘pyviz hvploy’ visualizes the resulting data in the ‘Jupyter Notebook’.  
+The FinTech app technology in this program utilizes unsupervised machine learning algorithms in models to find similar relationships among data points for segmentation. To achieve this, imports from python’s ‘scikit-learn’ utilizes algorithms and ‘pyviz hvploy’ visualizes the resulting data in the ‘Jupyter Notebook’.  
 
 ---
 
