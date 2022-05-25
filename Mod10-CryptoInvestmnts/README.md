@@ -5,12 +5,13 @@
 ---
 
 ## Background
-This project constructs a program to propose a novel approach to build investment portfolios based on cryptocurrencies. Looking at other factors beyond returns and volatility in cryptocurrency metrics is to get an edge in better investment performance beyond the competition for crypto-portfolios. 
+This project constructs a program to propose a novel approach to build investment portfolios based on cryptocurrencies. Looking at other factors beyond returns and volatility to get an edge in cryptocurrency metrics this program pursues better investment performance beyond the competition for crypto-portfolios using machine-learning. 
 
 The increasing interest in cryptocurrency investing has made this asset class popular for portfolios because they expand diversification in the hi-risk aggressive growth asset classes. Utilizing python and unsupervised machine learning code, this program uses ‘K-Means’ algorithms to group cryptocurrencies in clusters to analyze performance in different time periods. The time performance results are then revealed visually to assist with investment decisions of cryptocurrencies for portfolios.
 
-This approach brings greater identification of performance in the increasingly crowded asset class of cryptocurrencies.  As such, one can access risks and performance in relation to time periods. Thus, offering a keener visualization of each cryptocurrency’s durability and fit for selecting it into building a portfolio. 
-The FinTech app technology in this program utilizes unsupervised machine learning to apply algorithms and statistics to help analyze the time performance data of cryptocurrencies. The time performance is categorized for models to find similar relationships among its data points for segmentation. To achieve this, imports from python’s ‘scikit-learn’ are for utilizing algorithms and ‘pyviz hvploy’ to visualize the resulting data in the ‘Jupyter Notebook’.  
+This approach brings greater identification of performance in the increasingly crowded asset class of cryptocurrencies.  As such, one can access risks and performance across time periods using algorithms. Thus, offering a keener visualization of each cryptocurrency’s durability and fit for selection into building a portfolio. 
+
+The FinTech app technology in this program utilizes unsupervised machine learning algorithms uses models to find similar relationships among data points for segmentation. To achieve this, imports from python’s ‘scikit-learn’ utilizes algorithms and ‘pyviz hvploy’ visualizes the resulting data in the ‘Jupyter Notebook’.  
 
 ---
 
