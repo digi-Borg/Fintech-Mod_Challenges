@@ -64,11 +64,12 @@ This application is launched from web-based JupyterLab utilizing Pandas which is
 
 The program is developed in Jupyter notebooks on a **.ipny** file. The **scikit-learn** library makes it much easier to explore data using algorithms and statistical models to assist in making future decisions without having to write additional code using conditional statements and logic manually. With the interactive **pyviz hvplot** library,  data visualization is improved in chart plot presentations. Together they advance functions to create informative visualizations from the Pandas DataFrames and data metrics. 
 
-![Cryptocurrency Percentage Change](Images/M10Chlg-KMeans_ElbowChart_2022-05-24.png) 
+![Cryptocurrency Percentage Change](Images/M10Chlg-PercentChg_2022-05-24.png) 
 
-![K-Means Elbow Chart](Images/M10Chlg-KMeans_ElbowChart_2022-05-24.png) 
+![Composite Elbow Charts ](Images/M10Chlg_CompstElbowChrts_2022-05-24.png) 
 
-![PCA Scatter Chart](Images/M10Chlg-PCA_ScttrChrt_2022-05-24.png)
+![PCA Scatter Chart](Images/M10Chlg-PCA_ScttrChrt_2022-05-24.png) 
+
 
 
 ```python
