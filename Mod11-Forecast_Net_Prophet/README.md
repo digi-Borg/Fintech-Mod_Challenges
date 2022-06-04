@@ -23,11 +23,11 @@ The software operates on python 3.9 with the installation package imports embedd
 
 To work with time series data Python and Pandas supply functions through the [datetime] objects. For forecasting [fbprophet] is used with its dependency [pystan]. 'PyViz' is a single platform for accessing multiple visualization libraries from Python which needs installation of [hvPlot] and its dependency [holoviews] for charting in this program. 
 
-* [anaconda3](https://docs.anaconda.com/anaconda/install/windows/e) . 
+* [anaconda3](https://docs.anaconda.com/anaconda/install/windows/e) 
 
-* [GoogleColab]( https://colab.research.google.com/) 
+* [GoogleColab](https://colab.research.google.com/) 
 
-*  [FBProphet]( https://facebook.github.io/prophet/) 
+*  [FBProphet](https://facebook.github.io/prophet/) 
 
 * [pyviz hvplot](https://hvplot.holoviz.org/index.html#) .
 
@@ -80,9 +80,9 @@ This application is launched from web-based Google Colab cloud utilizing Pandas 
 The program is developed in Colab notebook on a jupyter **.ipny** file. The **fbprophet** library makes it possible to forecast using pandas timeseries data using algorithms and statistical models to assist in making future decisions from non-linear variables. 
  
 
-![Mercado Search Traffic Trends](Images\M11Chllg- forecast_mercado_trends.png) 
+![Mercado Search Traffic Trends](Images/M11Chllg-forecast_mercado_trends.png) 
 
-![Mercado Quarterly Sales Forecast](Images\M11Chllg-mercado_sales_prophet_forecast.png) 
+![Mercado Quarterly Sales Forecast](Images/M11Chllg-mercado_sales_prophet_forecast.png) 
 
 
 
