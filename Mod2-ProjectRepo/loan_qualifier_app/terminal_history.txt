@@ -1,0 +1,7 @@
+    1  C:/Users/gotha/anaconda3/Scripts/activate
+    2  conda activate dev
+    3  cd 
+    4  ls
+    5  cd OneDrive/Desktop/Fintech-Mod_Challenges/Mod2-ProjectRepo/loan_qualifier_app/
+    6  ls
+    7  history 50 > terminal_history.txt
